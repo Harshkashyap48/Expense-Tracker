@@ -1,4 +1,4 @@
-// Transaction.js
+
 import React from 'react';
 
 const Transaction = ({ id, description, amount }) => {
