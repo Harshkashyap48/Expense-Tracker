@@ -1,0 +1,70 @@
+.expense-tracker {
+    max-width: 500px;
+    margin: 0 auto;
+    margin-top: 4rem;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    border: none;
+    background-color:#a6bcc0;
+    color: black;
+    -webkit-box-shadow: 1px 4px 30px 13px rgba(0,0,0,0.75);
+    -moz-box-shadow: 1px 4px 30px 13px rgba(0,0,0,0.75);
+    box-shadow: 1px 4px 30px 13px rgba(0,0,0,0.75);
+  }
+  .expense-tracker h2{
+    font-size: 3rem;
+    text-align: center;
+  }
+  .expense-tracker .Underline{
+    background-color: black;
+    border: 1px solid black;
+    margin-bottom: 2rem;
+  }
+  .expense-tracker h3{
+    font-size: 1.5rem;
+    margin-left: 2rem;
+  }
+  .expense-tracker .data{
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+    
+  }
+  
+  .expense-tracker .data input{
+    width: 80%;
+    height: 1.8rem;
+    border-radius: .2rem;
+  }
+  .expense-tracker .data button{
+    width: 50%;
+    height: 1.8rem;
+    margin-left: 5rem;
+    border-radius: 1rem;
+  }
+  .expense-tracker .data button:hover{
+    background-color: rgb(46, 46, 46);
+    color: #ccc;
+    -webkit-box-shadow: 1px 4px 10px 5px rgba(0,0,0,0.75);
+    -moz-box-shadow: 1px 4px 10px 5px rgba(0,0,0,0.75);
+    box-shadow: 1px 4px 10px 5px rgba(0,0,0,0.75);
+    border: none;
+  }
+  .transaction-list {
+    list-style-type: none;
+    padding: 0;
+    margin: 3rem;
+  }
+  
+  .expense {
+    color: rgb(159, 7, 7);
+    font-size: 1.3rem;
+    font-weight: 400;
+  }
+  
+  .income {
+    color: rgb(4, 51, 4);
+    font-size: 1.3rem;
+    font-weight: 400;
+  }
